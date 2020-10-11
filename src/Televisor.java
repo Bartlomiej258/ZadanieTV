@@ -1,17 +1,17 @@
 public class Televisor {
-    boolean turn;
+    boolean isOn;
 
     void turnOn(){
-        turn = true;
+        isOn = true;
         System.out.println("the TV is On");
     }
 
     void turnOff(){
-        turn = false;
+        isOn = false;
         System.out.println("the TV is off");
     }
 
     void showStatus(){
-        System.out.println("Status: the Tv is: " + turn);
+        System.out.println("Status: the Tv is: " + isOn);
     }
 }
